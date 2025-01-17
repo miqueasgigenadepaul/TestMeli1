@@ -1,0 +1,45 @@
+.searchBar {
+    width: 100vw;
+    height: 7vh;
+    background-color: #ffe600;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    border: none;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    border: none;
+    width: 50vw;
+    height: 5vh;
+}
+
+.searchIcon {
+    color: grey;
+    background-color: #edededa8;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMeli {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.dataResult{
+    display: grid;
+    color: #f000;
+}
+
+
+
