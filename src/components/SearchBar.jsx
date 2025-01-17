@@ -5,6 +5,7 @@ import {useState, useEffect} from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import logoMeliSinFondo from "./logoMeliSinFondo.png";
 
+
 const SearchBar = () => {
 
 const [products, setProducts] = useState([])
@@ -24,23 +25,23 @@ const handleProductChange = (event) => {
     setNewProduct(event.target.value)
 }
 
-
-
 return (
-    <div className = "searchBar">
-            <form>
+    <div>
+            <form className = "searchBar">
                 <img className = "logoMeli" src = {logoMeliSinFondo} />
                 <input value = {newProduct} onChange = {handleProductChange}/>
                 <div className = "searchIcon">
                     <SearchIcon />
                 </div>
             </form>
+            <h1>Products</h1>
+            <div className = "content">
             <ul className = "dataResult">
                 {products.map(product => {
-                    console.log('producto', product)
-                    return <li key = {product.id}>{product.name}{product.price}</li>
+                    return <li key={product.id}>{product.name}{product.price}</li>
                 })}
             </ul>
+            </div>
     </div>
     )
 }
