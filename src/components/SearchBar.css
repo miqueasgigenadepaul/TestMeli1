@@ -23,11 +23,16 @@ form input {
 }
 
 .searchIcon {
-    color: grey;
+    color: #808080;
     background-color: #edededa8;
     height: 5vh;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
+}
+
+.searchIcon:hover {
+    border-color: #c0c0c0;
 }
 
 .logoMeli {
@@ -36,13 +41,7 @@ form input {
     padding: 5px;
 }
 
-.content {
-    display: block;
-}
 
-.dataResult{
-    display: grid;
-}
 
 
 

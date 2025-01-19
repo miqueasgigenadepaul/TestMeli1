@@ -1,0 +1,34 @@
+
+.dataResult {
+    display: grid;
+    list-style: none; /*elimina los puntos de la lista*/
+    gap: 10px; /*espacio entre cada producto*/
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-top: 35px;
+    background-color: #ffff;
+    border: 5px solid grey;
+}
+
+.image-data-container {
+    display: flex;
+    border: 5px solid black;
+    width: 100%; /*se ajusta al contenedor padre*/
+    max-width: 1200px; 
+    text-align: left;
+}
+
+.productImage {
+    display: grid;
+    width: 9vw;
+    padding: 5px;
+}
+
+button {
+    width: 100%
+}
+
+
+
+
