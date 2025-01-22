@@ -1,4 +1,5 @@
 .searchBar {
+    display: flex;
     width: 100vw;
     height: 7vh;
     background-color: #ffe600;
@@ -6,14 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-form {
-    display: flex;
     border: none;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
 }
 
 form input {
@@ -40,7 +34,6 @@ form input {
     height: 140px;
     padding: 5px;
 }
-
 
 
 

@@ -3,12 +3,7 @@ import "./SearchBar.css"
 import SearchIcon from '@mui/icons-material/Search';
 import logoMeliSinFondo from "./logoMeliSinFondo.png";
 
-const SearchBar = ({searchTerm, handleSearchChange}) => {
-
-//event handler para el boton
-const pressButton = (e) => {
-    e.preventDefault()
-}
+const SearchBar = ({searchTerm, handleSearchChange, handleSearchClick}) => {
 
 return (
     <form className = "searchBar">
@@ -17,7 +12,7 @@ return (
                     placeholder = "Nunca dejes de buscar"
                 />
                 <div>
-                    <button type = "submit" onClick = {pressButton} className = "searchIcon">
+                    <button type = "submit" onClick = {handleSearchClick} className = "searchIcon">
                         <SearchIcon />
                     </button>
                 </div>
@@ -26,4 +21,3 @@ return (
 }
 
 export default SearchBar
-
