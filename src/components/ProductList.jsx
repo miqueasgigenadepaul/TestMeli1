@@ -69,37 +69,24 @@ return (
                     )}
             </ul>
 
-                    
-            {/* Mostrar detalles del producto seleccionado */}
-            <div className="unique-product-data-result">
-                {selectedProduct && (
-                  <div className="product-details">
-                      {/* Contenedor principal dividido en dos secciones */}
-                      <div className="product-details-container">
-                          {/* Primera sección: Imagen */}
-                          <div className="product-image-description-productDescription-container">
-                            <img
-                              className="only-one-image"
-                              src={selectedProduct.imageUrl}
-                            />
-                            <h2>
-                              <strong>Descripción del producto</strong>
-                            </h2>
-                            <p className="product-description">{selectedProduct.description}</p>
-                          </div>
-
-                          {/* Segunda sección: Detalles del producto */}
-                          <div className="product-name-price-container">
-                            <p className="name"><strong>{selectedProduct.info}</strong></p>
-                            <p className="price"><strong>${selectedProduct.price}</strong></p>
-                            <button className="buy-button">Comprar</button>
-                            <button className="close-button" onClick={handleCloseDetails}>
-                              Cerrar
-                            </button>
-                          </div>
-                      </div>
-                  </div>
-                )}
+            <div className = "container">
+            {selectedProduct && (
+              <div className = "sub-container">
+                <div className = "first-section">
+                  <img src = {selectedProduct.imageUrl} />
+                  <br />
+                  <h2><b>Descripcion del producto</b></h2>
+                  <br />
+                  <p>{selectedProduct.description}</p>
+                </div>
+                <div className = "second-section">
+                  <p><b>{selectedProduct.info}</b></p> 
+                  <p>$ {selectedProduct.price}</p>
+                  <button>Comprar</button>
+                  <button onClick = {handleCloseDetails}>Cerrar</button>
+                </div>
+              </div>
+            )}
             </div>
       </div>
     )
