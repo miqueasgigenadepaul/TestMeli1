@@ -2,13 +2,16 @@ import React from 'react'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
 import "./ProductList.css"
+import { useNavigate, useParams } from 'react-router-dom'
 
 
 const ProductList = ({searchTerm, triggerSearch, resetSearch}) => {
     const [products, setProducts] = useState([])
     const [filteredProducts, setFilteredProducts] = useState([])
     const [selectedProduct, setSelectedProduct] = useState(null)
-    
+    const navigate = useNavigate()
+    const {id} = useParams()
+
     //obtengo los datos de los productos
     useEffect(() => {
     axios.get("http://localhost:3001/productItems")
@@ -42,6 +45,16 @@ const ProductList = ({searchTerm, triggerSearch, resetSearch}) => {
         console.log('cerrar')
         setSelectedProduct(null)
     }
+    /* aca lo que intente hacer es poner el handleShowDetails
+    para que aparezca el producto seleccionado en pantalla y que 
+    aparte de esto navegue a la url con el id correcto. Pero no 
+    funcionó.
+      const handleNavigate = (id) => {
+          handleShowDetails()
+          navigate(`/products/${id}`)
+      } 
+    */
+
 return (
         <div>
             <ul className = {`dataResult ${selectedProduct ? "hidden" : ""}`}>

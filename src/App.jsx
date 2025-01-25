@@ -2,7 +2,7 @@ import {useState} from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar";
 import ProductList from "./components/ProductList";
-
+import {Routes, Route} from "react-router-dom"
 
 // caja de busqueda
 
@@ -16,7 +16,6 @@ const App = () => {
     setSearchTerm(event.target.value)
 }
 
-
   const handleSearchClick = (e) => {
     e.preventDefault();
     setTriggerSearch(true);
@@ -28,10 +27,16 @@ const App = () => {
                 handleSearchChange = {handleSearchChange}
                 handleSearchClick = {handleSearchClick}
       />
-      <ProductList searchTerm = {searchTerm}
-        triggerSearch = {triggerSearch}
-        resetSearch = {() => setTriggerSearch(false)}
-      />
+      <Routes>
+        <Route path = "/" element = {<ProductList searchTerm = {searchTerm}
+          triggerSearch = {triggerSearch}
+          resetSearch = {() => setTriggerSearch(false)}
+        />} />
+        <Route path = "/product/:id" element = {<ProductList searchTerm = {searchTerm}
+          triggerSearch = {triggerSearch}
+          resetSearch = {() => setTriggerSearch(false)}
+        />} />
+      </Routes>
     </div>
   )
 }
