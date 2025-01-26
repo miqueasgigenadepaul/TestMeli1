@@ -93,6 +93,12 @@ button:hover {
     margin-top: 35px;
 }
 
+/* 
+subcontainer no es representativo
+usar nombres autoexplicativos
+ */
+
+
 .sub-container{
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -106,6 +112,11 @@ button:hover {
     border: 2px solid #f00;
 }*/
 
+
+/* 
+first section no es representativo
+usar nombres autoexplicativos
+ */
 .first-section img {
     display: grid;
     width:  90%;
@@ -131,6 +142,11 @@ button:hover {
     border: 2px solid violet;
 }*/
 
+
+/* 
+second section no es representativo
+usar nombres autoexplicativos
+ */
 .second-section > :nth-child(1) {
     margin-top: 30px;
     font-size: 20px;

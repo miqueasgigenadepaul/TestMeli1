@@ -9,7 +9,7 @@ import {Routes, Route} from "react-router-dom"
 const App = () => {
   
   const [searchTerm, setSearchTerm] = useState('')
-  const [triggerSearch, setTriggerSearch] = useState(false)
+  const [triggerSearch, setTriggerSearch] = useState(false) // este estado no es necesario, podes utilizar search term para ejecutar el rerender
 
   const handleSearchChange = (event) => {
     console.log(event.target.value)
