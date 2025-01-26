@@ -36,11 +36,11 @@ const ProductList = ({ searchTerm, triggerSearch, resetSearch }) => {
   }, [triggerSearch]);
 
   const selectedProduct = id
-    ? products.find(product => product.id === parseInt(id))
+    ? products.find((product) => product.id === id)
     : null
 
-  const handleNavigate = (id) => {
-    navigate( `/product/${id}`)
+  const handleNavigate = (productId) => {
+    navigate( `/product/${productId}`)
   };
 
   return (
