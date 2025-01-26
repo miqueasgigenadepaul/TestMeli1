@@ -10,6 +10,12 @@
     border: none;
 }
 
+/* 
+usar siempre clases
+en cambio de usar form input
+usar .searchBar
+ */
+
 form input {
     border: none;
     width: 50vw;

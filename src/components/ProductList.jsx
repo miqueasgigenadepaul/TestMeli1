@@ -14,10 +14,10 @@ const ProductList = ({ searchTerm, triggerSearch, resetSearch }) => {
   // Cargar los productos desde la API
   useEffect(() => {
     axios
-      .get("http://localhost:3001/productItems")
+      .get("http://localhost:3001/productItems") // Esta URL debe ir en una variable estilo GET_PRODUCTS
       .then((response) => {
         setProducts(response.data);
-        setFilteredProducts(response.data.slice(0, 4)); // Mostrar los primeros 4 productos al inicio
+        setFilteredProducts(response.data.slice(0, 4)); // Mostrar los primeros 4 productos al inicio => No es necesario el slice aca. ya que podes guardar todos los productos en memoria
       })
       .catch((error) => console.error("Error al cargar los productos:", error));
   }, []);
@@ -34,6 +34,7 @@ const ProductList = ({ searchTerm, triggerSearch, resetSearch }) => {
       resetSearch(); // Resetear el trigger
     }
   }, [triggerSearch]);
+  // este use effect no es necesario podes hacer el filter directamente en porducts ya que tenes la variable search Term
 
   const selectedProduct = id
     ? products.find((product) => product.id === id)
