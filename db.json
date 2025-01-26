@@ -1,26 +1,190 @@
 {
   "productItems": [
-    { "id": 1, "info": "iPhone 14 5g 512gb Negro. Completo único!", "price": 1980, "imageUrl": "https://images.pexels.com/photos/6373086/pexels-photo-6373086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Este modelo de última generación combina un diseño elegante con la tecnología 5G, ofreciendo un almacenamiento masivo de 512GB para tus fotos, videos y aplicaciones. Su acabado negro lo hace sofisticado y moderno. Ideal para quienes buscan el mejor rendimiento en un dispositivo premium. Este modelo de última generación combina un diseño elegante con la tecnología 5G, ofreciendo un almacenamiento masivo de 512GB para tus fotos, videos y aplicaciones. Su acabado negro lo hace sofisticado y moderno. Ideal para quienes buscan el mejor rendimiento en un dispositivo premium." },
-    { "id": 2, "info": "iPhone 10 4g 128gb Negro. Completo único!", "price": 799, "imageUrl": "https://images.unsplash.com/photo-1599950755346-a3e58f84ca63?q=80&w=3573&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "description": "Una opción confiable y compacta, este iPhone 10 incluye conectividad 4G y un almacenamiento de 128GB para mantener tus datos esenciales al alcance. Su diseño negro clásico lo hace atemporal y funcional, perfecto para el uso diario. Una opción confiable y compacta, este iPhone 10 incluye conectividad 4G y un almacenamiento de 128GB para mantener tus datos esenciales al alcance. Su diseño negro clásico lo hace atemporal y funcional, perfecto para el uso diario." },
-    { "id": 3, "info": "Samsung Galaxy S23 5g 512gb Gris. Completo único!", "price": 1199, "imageUrl": "https://images.pexels.com/photos/16149966/pexels-photo-16149966/free-photo-of-get-ready-for-the-future-with-samsung-galaxy-s23.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Innovación y potencia definen al Galaxy S23. Con tecnología 5G y un almacenamiento de 512GB, este dispositivo ofrece velocidad y capacidad excepcionales. Su acabado en gris añade un toque futurista y sofisticado, ideal para usuarios exigentes. Innovación y potencia definen al Galaxy S23. Con tecnología 5G y un almacenamiento de 512GB, este dispositivo ofrece velocidad y capacidad excepcionales. Su acabado en gris añade un toque futurista y sofisticado, ideal para usuarios exigentes." },
-    { "id": 4, "info": "Samsung Galaxy S20 4g 128gb Negro. Completo único!",  "price": 749, "imageUrl": "https://images.pexels.com/photos/3659194/pexels-photo-3659194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Este modelo combina un diseño moderno y funcionalidad con conectividad 4G y almacenamiento de 128GB. Su color negro lo hace discreto y elegante, adecuado tanto para uso profesional como personal. Este modelo combina un diseño moderno y funcionalidad con conectividad 4G y almacenamiento de 128GB. Su color negro lo hace discreto y elegante, adecuado tanto para uso profesional como personal." },
-    { "id": 5, "info": "iPhone 13 Pro Max 5g 1TB Azul. Completo único!", "price": 1999, "imageUrl": "https://images.pexels.com/photos/5077076/pexels-photo-5077076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Un dispositivo premium para los usuarios más exigentes. Este iPhone 13 Pro Max incluye conectividad 5G, almacenamiento masivo de 1TB y un diseño en color azul que destaca por su elegancia y estilo. Un dispositivo premium para los usuarios más exigentes. Este iPhone 13 Pro Max incluye conectividad 5G, almacenamiento masivo de 1TB y un diseño en color azul que destaca por su elegancia y estilo." },
-    { "id": 6, "info": "Samsung Galaxy A54 5g 256gb Blanco. Completo único!", "price": 599, "imageUrl": "https://images.pexels.com/photos/7619085/pexels-photo-7619085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Este Samsung Galaxy A54 combina potencia y estilo. Con conectividad 5G y un diseño en blanco brillante, ofrece almacenamiento de 256GB para todos tus datos importantes. Este Samsung Galaxy A54 combina potencia y estilo. Con conectividad 5G y un diseño en blanco brillante, ofrece almacenamiento de 256GB para todos tus datos importantes." },
-    { "id": 7, "info": "iPhone 12 Mini 4g 128gb Blanco. Compacto único!", "price": 699, "imageUrl": "https://images.pexels.com/photos/4041592/pexels-photo-4041592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone 12 Mini combina funcionalidad y diseño compacto. Ideal para quienes buscan portabilidad sin sacrificar rendimiento. Con 128GB de almacenamiento, es perfecto para el uso diario. El iPhone 12 Mini combina funcionalidad y diseño compacto. Ideal para quienes buscan portabilidad sin sacrificar rendimiento. Con 128GB de almacenamiento, es perfecto para el uso diario." },
-    { "id": 8, "info": "Samsung Galaxy Z Fold 4 5g 1TB Negro. Futurista único!", "price": 2499, "imageUrl": "https://images.pexels.com/photos/10022917/pexels-photo-10022917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "Revoluciona tu experiencia móvil con el Galaxy Z Fold 4. Este dispositivo plegable ofrece tecnología 5G, 1TB de almacenamiento y un diseño negro elegante que impresiona a primera vista. Revoluciona tu experiencia móvil con el Galaxy Z Fold 4. Este dispositivo plegable ofrece tecnología 5G, 1TB de almacenamiento y un diseño negro elegante que impresiona a primera vista." },
-    { "id": 9, "info": "iPhone 11 4g 64gb Amarillo. Color único!", "price": 599, "imageUrl": "https://images.pexels.com/photos/15950759/pexels-photo-15950759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone 11 en color amarillo destaca por su estilo único y vibrante. Con 64GB de almacenamiento, es ideal para capturar y guardar recuerdos con facilidad. El iPhone 11 en color amarillo destaca por su estilo único y vibrante. Con 64GB de almacenamiento, es ideal para capturar y guardar recuerdos con facilidad." },
-    { "id": 10, "info": "Samsung Galaxy S22 Ultra 5g 1TB Verde. Completo único!", "price": 1599, "imageUrl": "https://images.pexels.com/photos/16149965/pexels-photo-16149965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Galaxy S22 Ultra redefine la excelencia con tecnología 5G, almacenamiento masivo de 1TB y un diseño verde único que combina potencia y estilo. El Galaxy S22 Ultra redefine la excelencia con tecnología 5G, almacenamiento masivo de 1TB y un diseño verde único que combina potencia y estilo." },
-
-    { "id": 11, "info": "iPhone 14 Plus 5g 256gb Rojo. Completo único!", "price": 1199, "imageUrl": "https://images.pexels.com/photos/16123513/pexels-photo-16123513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone 14 Plus en rojo es sinónimo de innovación y estilo. Con 256GB de almacenamiento y conectividad 5G, es ideal para quienes buscan lo mejor en rendimiento y diseño." },
-    { "id": 12, "info": "Samsung Galaxy A13 4g 128gb Azul. Accesible único!", "price": 299, "imageUrl": "https://images.pexels.com/photos/3659124/pexels-photo-3659124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Samsung Galaxy A13 ofrece una experiencia confiable con conectividad 4G y 128GB de almacenamiento. Su diseño azul es moderno y funcional, ideal para el uso diario." },
-    { "id": 13, "info": "iPhone XS Max 4g 512gb Dorado. Completo único!", "price": 999, "imageUrl": "https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone XS Max combina lujo y tecnología avanzada. Con almacenamiento de 512GB y un acabado dorado, este dispositivo es ideal para quienes buscan estilo y funcionalidad." },
-    { "id": 14, "info": "Samsung Galaxy Z Flip 3 5g 256gb Rosa. Compacto único!", "price": 899, "imageUrl": "https://images.pexels.com/photos/7654321/pexels-photo-7654321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Galaxy Z Flip 3 redefine la portabilidad con un diseño plegable, tecnología 5G y 256GB de almacenamiento. Su acabado rosa añade un toque de estilo único." },
-    { "id": 15, "info": "iPhone SE 2022 4g 64gb Blanco. Compacto único!", "price": 429, "imageUrl": "https://images.pexels.com/photos/7654323/pexels-photo-7654323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone SE 2022 ofrece rendimiento en un diseño compacto. Con 64GB de almacenamiento y conectividad 4G, es ideal para quienes valoran la simplicidad y la funcionalidad." },
-
-    { "id": 16, "info": "Samsung Galaxy A53 5g 128gb Negro. Completo único!", "price": 449, "imageUrl": "https://images.pexels.com/photos/8765432/pexels-photo-8765432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Galaxy A53 combina conectividad 5G y 128GB de almacenamiento en un diseño negro elegante. Ideal para quienes buscan rendimiento y estilo a un precio accesible." },
-    { "id": 17, "info": "iPhone 13 Mini 4g 256gb Rosa. Completo único!", "price": 799, "imageUrl": "https://images.pexels.com/photos/7654324/pexels-photo-7654324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone 13 Mini ofrece potencia en un diseño compacto y color rosa vibrante. Con 256GB de almacenamiento, es ideal para quienes buscan portabilidad y estilo." },
-    { "id": 18, "info": "Samsung Galaxy S20 Ultra 4g 512gb Blanco. Completo único!", "price": 1199, "imageUrl": "https://images.pexels.com/photos/8765433/pexels-photo-8765433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Galaxy S20 Ultra redefine la excelencia con un diseño blanco moderno, conectividad 4G y 512GB de almacenamiento. Ideal para usuarios avanzados." },
-    { "id": 19, "info": "iPhone X 4g 128gb Negro. Compacto único!", "price": 499, "imageUrl": "https://images.pexels.com/photos/7654325/pexels-photo-7654325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El iPhone X combina funcionalidad y diseño compacto. Conectividad 4G y 128GB de almacenamiento, ideal para el uso diario." },
-    { "id": 20, "info": "Samsung Galaxy M52 5g 256gb Azul. Completo único!", "price": 499, "imageUrl": "https://images.pexels.com/photos/8765434/pexels-photo-8765434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "description": "El Galaxy M52 combina potencia y estilo. Con conectividad 5G y almacenamiento de 256GB, es ideal para los usuarios más exigentes." }
+    { "id": 1, 
+      "info": "iPhone 14 5g 512gb Gris. Completo único!", 
+      "price": 1980, 
+      "imageUrl": "https://ar.oneclickstore.com/wp-content/uploads/2023/06/iPhone_14_Pro_Max_Silver_PDP_Image_Position-1a_MXLA.jpg", 
+      "description": "Descubre la potencia y elegancia del iPhone 14 5G en su versión de 512GB, en un impresionante color Gris. Este dispositivo de última generación te ofrece un rendimiento excepcional, con una pantalla Super Retina XDR para una calidad de imagen sin igual. Con su potente procesador A15 Bionic, podrás disfrutar de una experiencia fluida y rápida en todas tus aplicaciones, juegos y multitarea. Este modelo incluye una gran capacidad de almacenamiento de 512GB, ideal para guardar tus fotos, videos, aplicaciones y mucho más."
+    },
+    { "id": 2, 
+      "info": "iPhone 10 4g 128gb Gris. Completo único!", 
+      "price": 799, "imageUrl": "https://laptopzone.pk/wp-content/uploads/2024/12/iphone-x-1-1.jpg", 
+      "description": "Una opción confiable y compacta, este iPhone 10 incluye conectividad 4G y un almacenamiento de 128GB para mantener tus datos esenciales al alcance. Su diseño negro clásico lo hace atemporal y funcional, perfecto para el uso diario. Una opción confiable y compacta, este iPhone 10 incluye conectividad 4G y un almacenamiento de 128GB para mantener tus datos esenciales al alcance. Su diseño negro clásico lo hace atemporal y funcional, perfecto para el uso diario." 
+    },
+    { "id": 3, 
+      "info": "Samsung Galaxy S23 5g 512gb Rosado. Completo único!", 
+      "price": 1199, 
+      "imageUrl": "https://d22fxaf9t8d39k.cloudfront.net/f1172b6a918c6730b2d6bb99f25669b83379c1be8a98e1953434abc44ad8bb48155135.jpg", 
+      "description": "Innovación y potencia definen al Galaxy S23. Con tecnología 5G y un almacenamiento de 512GB, este dispositivo ofrece velocidad y capacidad excepcionales. Su acabado en gris añade un toque futurista y sofisticado, ideal para usuarios exigentes. Innovación y potencia definen al Galaxy S23. Con tecnología 5G y un almacenamiento de 512GB, este dispositivo ofrece velocidad y capacidad excepcionales. Su acabado en gris añade un toque futurista y sofisticado, ideal para usuarios exigentes." },
+    { "id": 4, 
+      "info": "Samsung Galaxy S20 4g 128gb Azul Oscuro. Completo único!",  
+      "price": 749, "imageUrl": "https://m.media-amazon.com/images/I/51yxI5nkPWL.jpg", 
+      "description": "Este modelo combina un diseño moderno y funcionalidad con conectividad 4G y almacenamiento de 128GB. Su color negro lo hace discreto y elegante, adecuado tanto para uso profesional como personal. Este modelo combina un diseño moderno y funcionalidad con conectividad 4G y almacenamiento de 128GB. Su color negro lo hace discreto y elegante, adecuado tanto para uso profesional como personal." 
+    },
+    { "id": 5, 
+      "info": "iPhone 13 Pro Max 5g 1TB Dorado. Completo único!", 
+      "price": 1999, 
+      "imageUrl": "https://i5.walmartimages.com/seo/Straight-Talk-Apple-iPhone-13-Pro-Max-128GB-Gold-Prepaid-Smartphone-Locked-to-Straight-Talk_38276f17-7d6c-46dd-baa2-09aa8a5bd12d.94b4bfdbd75aa8f2478a6e531349cac8.jpeg", 
+      "description": "Un dispositivo premium para los usuarios más exigentes. Este iPhone 13 Pro Max incluye conectividad 5G, almacenamiento masivo de 1TB y un diseño en color azul que destaca por su elegancia y estilo. Un dispositivo premium para los usuarios más exigentes. Este iPhone 13 Pro Max incluye conectividad 5G, almacenamiento masivo de 1TB y un diseño en color azul que destaca por su elegancia y estilo." 
+    },
+    { "id": 6, 
+      "info": "Samsung Galaxy A54 5g 256gb Negro. Completo único!", 
+      "price": 599, 
+      "imageUrl": "https://static.bidcom.com.ar/publicacionesML/productos/CELSA54X/1000x1000-CELSA54N.jpg", 
+      "description": "Este Samsung Galaxy A54 combina potencia y estilo. Con conectividad 5G y un diseño en blanco brillante, ofrece almacenamiento de 256GB para todos tus datos importantes. Este Samsung Galaxy A54 combina potencia y estilo. Con conectividad 5G y un diseño en blanco brillante, ofrece almacenamiento de 256GB para todos tus datos importantes." },
+    { "id": 7, 
+      "info": "iPhone 12 Mini 4g 128gb Blanco. Compacto único!", 
+      "price": 699, 
+      "imageUrl": "https://acdn.mitiendanube.com/stores/001/116/601/products/apple-iphone-12-mini-256gb-5-41-72c2eea947fc6cc82b17097582836640-1024-1024.jpg", 
+      "description": "El iPhone 12 Mini combina funcionalidad y diseño compacto. Ideal para quienes buscan portabilidad sin sacrificar rendimiento. Con 128GB de almacenamiento, es perfecto para el uso diario. El iPhone 12 Mini combina funcionalidad y diseño compacto. Ideal para quienes buscan portabilidad sin sacrificar rendimiento. Con 128GB de almacenamiento, es perfecto para el uso diario." 
+    },
+    { "id": 8, 
+      "info": "Samsung Galaxy Z Fold 4 5g 1TB Gris Oscuro. Futurista único!", 
+      "price": 2499, 
+      "imageUrl": "https://images.fravega.com/f1000/8924d38557b75fce011739b62ef5a16d.jpg", 
+      "description": "Revoluciona tu experiencia móvil con el Galaxy Z Fold 4. Este dispositivo plegable ofrece tecnología 5G, 1TB de almacenamiento y un diseño negro elegante que impresiona a primera vista. Revoluciona tu experiencia móvil con el Galaxy Z Fold 4. Este dispositivo plegable ofrece tecnología 5G, 1TB de almacenamiento y un diseño negro elegante que impresiona a primera vista." 
+    },
+    { "id": 9, 
+      "info": "iPhone 11 4g 64gb Amarillo. Color único!", 
+      "price": 599, 
+      "imageUrl": "https://tohoomovilco.vtexassets.com/arquivos/ids/162288/11-amarillo-1.png?v=638668579643800000", 
+      "description": "El iPhone 11 en color amarillo destaca por su estilo único y vibrante. Con 64GB de almacenamiento, es ideal para capturar y guardar recuerdos con facilidad. El iPhone 11 en color amarillo destaca por su estilo único y vibrante. Con 64GB de almacenamiento, es ideal para capturar y guardar recuerdos con facilidad." 
+    },
+    { "id": 10, 
+      "info": "Samsung Galaxy S22 Ultra 5g 1TB Verde Oscuro. Completo único!", 
+      "price": 1599, 
+      "imageUrl": "https://plazavea.vteximg.com.br/arquivos/ids/10034168-1000-1000/image-6e9222c97d8c43dea11936c3390645f7.jpg?v=637859136912230000", 
+      "description": "El Galaxy S22 Ultra redefine la excelencia con tecnología 5G, almacenamiento masivo de 1TB y un diseño verde único que combina potencia y estilo. El Galaxy S22 Ultra redefine la excelencia con tecnología 5G, almacenamiento masivo de 1TB y un diseño verde único que combina potencia y estilo." 
+    },
+    { "id": 11, 
+      "info": "iPhone 14 Plus 5g 256gb Blanco. Completo único!", 
+      "price": 1199, 
+      "imageUrl": "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_1f57ed38_mirakl_image_1_large.jpg", 
+      "description": "El iPhone 14 Plus en rojo es sinónimo de innovación y estilo. Con 256GB de almacenamiento y conectividad 5G, es ideal para quienes buscan lo mejor en rendimiento y diseño." 
+    },
+    { "id": 12, 
+      "info": "Samsung Galaxy A13 4g 128gb Negro. Accesible único!", 
+      "price": 299, 
+      "imageUrl": "https://m.media-amazon.com/images/I/61xhaqnlKPL.jpg", 
+      "description": "El Samsung Galaxy A13 ofrece una experiencia confiable con conectividad 4G y 128GB de almacenamiento. Su diseño azul es moderno y funcional, ideal para el uso diario." 
+    },
+    { "id": 13, 
+      "info": "iPhone XS Max 4g 512gb Dorado. Completo único!", 
+      "price": 999, 
+      "imageUrl": "https://images-cdn.ubuy.co.in/655e61c9c78a8906f0247613-restored-iphone-xs-max-512gb-gold.jpg", 
+      "description": "El iPhone XS Max combina lujo y tecnología avanzada. Con almacenamiento de 512GB y un acabado dorado, este dispositivo es ideal para quienes buscan estilo y funcionalidad." 
+    },
+    { "id": 14, 
+      "info": "Samsung Galaxy Z Flip 3 5g 256gb Dorado. Compacto único!", 
+      "price": 899, 
+      "imageUrl": "https://maxihogar.vtexassets.com/arquivos/ids/163984/zflip-2.jpg?v=638111179414070000", 
+      "description": "El Galaxy Z Flip 3 redefine la portabilidad con un diseño plegable, tecnología 5G y 256GB de almacenamiento. Su acabado rosa añade un toque de estilo único." 
+    },
+    { "id": 15, 
+      "info": "iPhone SE 2022 4g 64gb Rojo. Compacto único!", 
+      "price": 429, 
+      "imageUrl": "https://zetaelectronica.com.ar/wp-content/uploads/2022/04/iphone-se-2022-dual-sim-esim-256gb-5g-rosu-4gb-ram_10076881_3_1647613963.jpeg", 
+      "description": "El iPhone SE 2022 ofrece rendimiento en un diseño compacto. Con 64GB de almacenamiento y conectividad 4G, es ideal para quienes valoran la simplicidad y la funcionalidad." 
+    },
+    { "id": 16, 
+      "info": "Samsung Galaxy A53 5g 128gb Negro. Completo único!", 
+      "price": 449, 
+      "imageUrl": "https://www.necxus.com.ar/products_image/26034/1000x1000_2.jpg", 
+      "description": "El Galaxy A53 combina conectividad 5G y 128GB de almacenamiento en un diseño negro elegante. Ideal para quienes buscan rendimiento y estilo a un precio accesible." 
+    },
+    { "id": 17, 
+      "info": "iPhone 13 Mini 4g 256gb Negro. Completo único!", 
+      "price": 799, 
+      "imageUrl": "https://zetaelectronica.com.ar/wp-content/uploads/2022/04/iphone-13-mini-dual-sim-esim-512gb-5g-negru-midnight-6gb-ram_10074447_3_1631706839.jpeg", 
+      "description": "El iPhone 13 Mini ofrece potencia en un diseño compacto y color rosa vibrante. Con 256GB de almacenamiento, es ideal para quienes buscan portabilidad y estilo." 
+    },
+    { "id": 18, 
+      "info": "Samsung Galaxy S20 Ultra 5g 512gb Negro. Completo único!", 
+      "price": 1199, 
+      "imageUrl": "https://m.media-amazon.com/images/I/51TzV-7eHkL.jpg", 
+      "description": "El Galaxy S20 Ultra redefine la excelencia con un diseño blanco moderno, conectividad 5G y 512GB de almacenamiento. Ideal para usuarios avanzados." 
+    },
+    { "id": 19, 
+      "info": "iPhone X 4g 128gb Negro. Compacto único!", 
+      "price": 499, 
+      "imageUrl": "https://mimelon.com/uploads/catalog/Product//51CjSOjGzpL__SL1000_1.jpg", 
+      "description": "El iPhone X combina funcionalidad y diseño compacto. Conectividad 4G y 128GB de almacenamiento, ideal para el uso diario." 
+    },
+    { "id": 20, 
+      "info": "Samsung Galaxy M52 5g 256gb Blanco. Completo único!", 
+      "price": 499, 
+      "imageUrl": "https://www.airlinkcommunication.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung-galaxy-m52-white-price-in-pakistan.jpg", 
+      "description": "El Galaxy M52 combina potencia y estilo. Con conectividad 5G y almacenamiento de 256GB, es ideal para los usuarios más exigentes."
+    },
+    {
+      "id": 21,
+      "info": "Xiaomi Redmi Note 12 Pro 5G 128GB Negro. Innovación al máximo.",
+      "price": 599,
+      "imageUrl": "https://nitro.gt/wp-content/uploads/2024/11/item_4876_gsltyvrwdrtym01fw0on.png",
+      "description": "El Xiaomi Redmi Note 12 Pro 5G combina lo último en tecnología con un diseño elegante y moderno. Cuenta con una pantalla AMOLED de 6.67 pulgadas que ofrece colores vibrantes y un nivel de detalle excepcional, perfecto para juegos, videos y navegación. Su potente procesador MediaTek Dimensity 1080 garantiza un rendimiento fluido incluso en las tareas más exigentes, mientras que la conectividad 5G te permite disfrutar de velocidades de descarga y streaming ultrarrápidas. La cámara principal de 108 MP captura imágenes increíbles con una claridad impresionante, y la batería de 5000 mAh con carga rápida de 67W asegura que estés siempre conectado. Ideal para quienes buscan calidad, rendimiento y estilo en un solo dispositivo."
+    },
+    {
+      "id": 22,
+      "info": "Xiaomi Poco X5 Pro 256GB Amarillo. Ideal para gaming.",
+      "price": 799,
+      "imageUrl": "https://m.media-amazon.com/images/I/519IZGVk8BL.jpg",
+      "description": "El Xiaomi Poco X5 Pro es la opción perfecta para los amantes de los videojuegos y el entretenimiento móvil. Equipado con una pantalla AMOLED de 6.67 pulgadas y una tasa de refresco de 120 Hz, ofrece una experiencia visual ultrafluida y envolvente. Su procesador Snapdragon 778G asegura un rendimiento sin interrupciones incluso en los juegos más exigentes, mientras que los 256 GB de almacenamiento te brindan espacio de sobra para tus aplicaciones, fotos y videos. Además, la cámara principal de 108 MP y los múltiples modos de fotografía te permiten capturar momentos con una calidad profesional. La batería de 5000 mAh con carga rápida de 67W asegura que puedas usarlo todo el día sin preocuparte por quedarte sin energía. Con un diseño llamativo en amarillo, es un dispositivo que combina funcionalidad y estilo."
+    },
+    {
+      "id": 23,
+      "info": "Huawei P60 Pro 512GB Blanco. Fotografía redefinida.",
+      "price": 799,
+      "imageUrl": "https://one-tech.es/wp-content/uploads/2023/05/HUAWEI_P60-Pro-1-1000x1000.jpg",
+      "description": "El Huawei P60 Pro es un teléfono diseñado para redefinir los estándares de la fotografía móvil. Con su sistema de cámaras Ultra Aperture de 50 MP y teleobjetivo de alta resolución, permite capturar imágenes excepcionales incluso en condiciones de poca luz. Su pantalla OLED de 6.67 pulgadas con resolución 2K ofrece colores vivos y un contraste impresionante, ideal para disfrutar de contenido multimedia en alta calidad. Gracias a sus 512 GB de almacenamiento interno, tendrás espacio más que suficiente para guardar todas tus fotos, videos y archivos importantes. Además, la batería de 4815 mAh con carga rápida de 88W y carga inalámbrica te asegura una experiencia sin interrupciones. El diseño premium en blanco con acabados cerámicos aporta un toque de elegancia y sofisticación. Este es un dispositivo que cumple con las necesidades de los usuarios más exigentes en fotografía, rendimiento y estilo."
+    },
+    {
+      "id": 24,
+      "info": "Xiaomi Mi 11 Ultra 256GB Negro. Tecnología de punta.",
+      "price": 999,
+      "imageUrl": "https://acdn.mitiendanube.com/stores/001/531/943/products/ultra-dfc97494e490c2f1cb17133633786602-1024-1024.jpg",
+      "description": "El Xiaomi Mi 11 Ultra combina un diseño innovador con la tecnología más avanzada disponible en un smartphone. Su pantalla AMOLED de 6.81 pulgadas con resolución WQHD+ y tasa de refresco de 120 Hz garantiza una experiencia visual incomparable, mientras que el procesador Snapdragon 888 asegura un rendimiento excepcional en todas las aplicaciones y juegos. Destaca su sistema de cámaras triple de 50 MP con zoom óptico de 5x y capacidades de grabación en 8K, ideal para quienes buscan capturar fotos y videos de calidad profesional. Con 256 GB de almacenamiento y 12 GB de RAM, este dispositivo es perfecto para el multitasking. Además, la batería de 5000 mAh con carga rápida de 67W y carga inalámbrica asegura que nunca te quedes sin energía. Un teléfono para los que no aceptan compromisos en rendimiento y estilo."
+    },
+    {
+      "id": 25,
+      "info": "Xiaomi Mi 10T Pro 128GB Gris. Potencia y rendimiento con cámaras de alta calidad.",
+      "price": 649,
+      "imageUrl": "https://www.tradeinn.com/f/13790/137905263_2/xiaomi-mi-10t-pro-8gb-128gb-6.67-dual-sim.webp",
+      "description": "El Xiaomi Mi 10T Pro es un smartphone diseñado para ofrecer un rendimiento excepcional en todos los aspectos. Equipado con una pantalla IPS LCD de 6.67 pulgadas, resolución Full HD+ y una tasa de refresco de 144 Hz, es ideal para gamers y usuarios que disfrutan de contenido multimedia fluido. Su procesador Qualcomm Snapdragon 865, junto con 8 GB de RAM, asegura un rendimiento suave y rápido en todas las aplicaciones. La cámara principal de 108 MP captura fotos de alta calidad, mientras que la batería de 5000 mAh con carga rápida de 33W garantiza una larga duración. Con su diseño elegante y materiales premium, el Mi 10T Pro es una excelente opción para quienes buscan un smartphone de alto rendimiento."
+    },
+    {
+      "id": 26,
+      "info": "Huawei P50 128GB Negro. Rendimiento premium con cámara avanzada.",
+      "price": 799,
+      "imageUrl": "https://www.peru-smart.com/wp-content/uploads/2023/08/CELU609NEGRO-256GB_0.jpg",
+      "description": "El Huawei P50 es un smartphone que destaca por su diseño minimalista y su potente sistema de cámaras. Su pantalla OLED de 6.5 pulgadas con resolución Full HD+ ofrece colores vibrantes y un contraste impresionante. La cámara de 50 MP con tecnología avanzada de Huawei ofrece una calidad fotográfica excepcional, incluso en condiciones de poca luz. El procesador Qualcomm Snapdragon 888 junto con 8 GB de RAM proporciona un rendimiento rápido y eficiente, ideal para usuarios exigentes. La batería de 4100 mAh con carga rápida de 66W asegura que puedas disfrutar de tu dispositivo durante todo el día. El P50 es perfecto para aquellos que buscan un smartphone premium con un enfoque en la fotografía y la experiencia de usuario."
+    },
+    {
+      "id": 27,
+      "info": "Xiaomi Mi 11 Lite 128GB Amarillo. Ligero, elegante y con gran rendimiento.",
+      "price": 349,
+      "imageUrl": "https://www.alemaniacell.com/uploads/imagen-principal18871-1-1652298766.jpg",
+      "description": "El Xiaomi Mi 11 Lite es un teléfono delgado y ligero que no sacrifica rendimiento. Con una pantalla AMOLED de 6.55 pulgadas y una resolución Full HD+, disfrutarás de una calidad visual impresionante. Su procesador Qualcomm Snapdragon 732G junto con 6 GB de RAM ofrece un rendimiento fluido para la mayoría de las aplicaciones y juegos. La cámara principal de 64 MP te permitirá capturar fotos detalladas y de alta calidad. La batería de 4250 mAh con carga rápida de 33W ofrece una duración suficiente para un día completo de uso. Su diseño delgado y elegante en color amarillo hace que el Mi 11 Lite se destaque entre otros dispositivos, brindando una experiencia completa tanto en rendimiento como en estética."
+    },
+    {
+      "id": 28,
+      "info": "Huawei Mate 40 Pro 256GB Plata. Innovación, estilo y rendimiento de gama alta.",
+      "price": 999,
+      "imageUrl": "https://m.media-amazon.com/images/I/41EOfjyM1iL._AC_SR1000,1000_.jpg",
+      "description": "El Huawei Mate 40 Pro es un teléfono que ofrece lo mejor de la tecnología actual. Con una pantalla OLED de 6.76 pulgadas, resolución 1344 x 2772 píxeles y soporte para una tasa de refresco de 90 Hz, ofrece una experiencia visual increíblemente fluida. Su procesador Kirin 9000 junto con 8 GB de RAM y 256 GB de almacenamiento interno proporciona un rendimiento de gama alta, ideal para usuarios que requieren velocidad y capacidad. La cámara triple de 50 MP, 12 MP y 20 MP con un lente ultra gran angular y teleobjetivo, captura fotos y videos de calidad profesional. La batería de 4400 mAh con carga rápida de 66W y carga inalámbrica de 50W te permitirá mantener tu dispositivo cargado rápidamente. Este teléfono es perfecto para quienes buscan un rendimiento sin igual en un diseño premium."
+    },
+    {
+      "id": 29,
+      "info": "Xiaomi Redmi K40 128GB Azul. Rendimiento potente y diseño atractivo.",
+      "price": 499,
+      "imageUrl": "https://img.gkbcdn.com/p/2024-10-24/FOSSiBOT-S1-5G-6GB-128GB-Smartphone-Black-526161-0._%7B0%7D_.jpg",
+      "description": "El Xiaomi Redmi K40 es un dispositivo que ofrece un rendimiento potente a un precio accesible. Equipado con una pantalla AMOLED de 6.67 pulgadas con resolución Full HD+ y una tasa de refresco de 120 Hz, brinda una experiencia visual fluida y vibrante. Su procesador Snapdragon 870, junto con 6 GB de RAM, asegura un rendimiento rápido y eficiente, incluso en tareas intensivas. La cámara principal de 48 MP captura imágenes de calidad, mientras que la batería de 4520 mAh con carga rápida de 33W asegura que puedas usarlo durante todo el día. El diseño elegante en azul destaca con líneas limpias y modernas, convirtiéndolo en una opción atractiva para los usuarios que buscan equilibrio entre precio y desempeño."
+    },
+    {
+      "id": 30,
+      "info": "Huawei Honor 50 256GB Verde. Estilo, rendimiento y cámara profesional.",
+      "price": 699,
+      "imageUrl": "https://www.celex.com/cdn/shop/products/HonorNTH-NX9505G256GBverde-3.jpg?v=1717183610",
+      "description": "El Huawei Honor 50 es un teléfono que combina un diseño elegante con un rendimiento impresionante. Su pantalla OLED de 6.57 pulgadas con resolución Full HD+ y tasa de refresco de 120 Hz proporciona una visualización increíblemente fluida. Equipado con un procesador Snapdragon 778G y 8 GB de RAM, el Honor 50 ofrece un rendimiento suave y rápido, ideal para juegos y multitarea. La cámara principal de 108 MP y el sistema de cámaras de 4 lentes ofrecen opciones avanzadas para capturar imágenes excepcionales. Además, su batería de 4300 mAh con carga rápida de 66W te asegura que puedas disfrutar de todo lo que el dispositivo tiene para ofrecer durante el día. El Honor 50 es perfecto para aquellos que buscan un smartphone que combine estilo, calidad fotográfica y gran rendimiento."
+    }
   ]
 }

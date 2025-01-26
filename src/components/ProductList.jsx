@@ -5,104 +5,97 @@ import "./ProductList.css"
 import { useNavigate, useParams } from 'react-router-dom'
 
 
-const ProductList = ({searchTerm, triggerSearch, resetSearch}) => {
-    const [products, setProducts] = useState([])
-    const [filteredProducts, setFilteredProducts] = useState([])
-    const [selectedProduct, setSelectedProduct] = useState(null)
-    const navigate = useNavigate()
-    const {id} = useParams()
+const ProductList = ({ searchTerm, triggerSearch, resetSearch }) => {
+  const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const navigate = useNavigate();
+  const { id } = useParams();
 
-    //obtengo los datos de los productos
-    useEffect(() => {
-    axios.get("http://localhost:3001/productItems")
-    .then(response => {
-        console.log('Datos recibidos:', response.data)
-        setProducts(response.data)
-        setFilteredProducts(response.data.slice(0,4)) // mostrar los primeros 4 productos al inicio
-    })
-    .catch(error => console.log("Error al cargar los productos:", error))
-}, [])
+  // Cargar los productos desde la API
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/productItems")
+      .then((response) => {
+        setProducts(response.data);
+        setFilteredProducts(response.data.slice(0, 4)); // Mostrar los primeros 4 productos al inicio
+      })
+      .catch((error) => console.error("Error al cargar los productos:", error));
+  }, []);
 
-// filtrar los productos cuando se activa el trigger
-    useEffect(() => {
-      if (triggerSearch) {
-        const filtered = products.filter(product => 
-          (product.info || "").toLowerCase().includes((searchTerm || "").toLowerCase()) 
-        ).slice(0,4) // limitar a 4 productos
-        setFilteredProducts(filtered)
-        resetSearch() // resetea el trigger
-      }
-    }, [triggerSearch])
-
-    // muestra solamente el producto seleccionado
-    const handleShowDetails = (product) => {
-        console.log('selected product', product)
-        setSelectedProduct(product) // Actualiza el estado con el producto seleccionado
+  // Filtrar los productos cuando se activa el trigger
+  useEffect(() => {
+    if (triggerSearch) {
+      const filtered = products
+        .filter((product) =>
+          (product.info || "").toLowerCase().includes((searchTerm || "").toLowerCase())
+        )
+        .slice(0, 4); // Limitar a 4 productos
+      setFilteredProducts(filtered);
+      resetSearch(); // Resetear el trigger
     }
+  }, [triggerSearch]);
 
-    // muestra la lista completa de productos
-    const handleCloseDetails = () => {
-        console.log('cerrar')
-        setSelectedProduct(null)
-    }
-    /* aca lo que intente hacer es poner el handleShowDetails
-    para que aparezca el producto seleccionado en pantalla y que 
-    aparte de esto navegue a la url con el id correcto. Pero no 
-    funcionó.
-      const handleNavigate = (id) => {
-          handleShowDetails()
-          navigate(`/products/${id}`)
-      } 
-    */
+  const selectedProduct = id
+    ? products.find(product => product.id === parseInt(id))
+    : null
 
-return (
-        <div>
-            <ul className = {`dataResult ${selectedProduct ? "hidden" : ""}`}>
-                {filteredProducts.map(product => 
-                    <li key={product.id} className = "items">
-                        <button onClick = {() => handleShowDetails(product)}>
-                            <div className = "image-data">
-                                {/*contenedor que envuelve dos secciones*/}
-                                <div className = "image-data-container">
-                                    <div className = "image">
-                                        <img className = "product-image" src = {product.imageUrl}
-                                        width = "100"
-                                        />
-                                    </div>
-                                    <div className = "image-price-info">
-                                        <br />
-                                        <p className = "image-price">${product.price}</p>
-                                        <br />
-                                        <p className = "image-info">{product.info}</p>
-                                    </div>
-                                </div>
-                              </div>
-                        </button >
-                    </li>
-                    )}
-            </ul>
+  const handleNavigate = (id) => {
+    navigate( `/product/${id}`)
+  };
 
-            <div className = "container">
-            {selectedProduct && (
-              <div className = "sub-container">
-                <div className = "first-section">
-                  <img src = {selectedProduct.imageUrl} />
-                  <br />
-                  <h2><b>Descripcion del producto</b></h2>
-                  <br />
-                  <p>{selectedProduct.description}</p>
+  return (
+    <div>
+      {!selectedProduct ? (
+        <ul className="dataResult">
+          {filteredProducts.map((product) => (
+            <li key={product.id} className="items">
+              <button onClick={() => handleNavigate(product.id)}>
+                <div className="image-data">
+                  <div className="image-data-container">
+                    <div className="image">
+                      <img
+                        className="product-image"
+                        src={product.imageUrl}
+                        width="100"
+                      />
+                    </div>
+                    <div className="image-price-info">
+                      <br />
+                      <p className="image-price">${product.price}</p>
+                      <br />
+                      <p className="image-info">{product.info}</p>
+                    </div>
+                  </div>
                 </div>
-                <div className = "second-section">
-                  <p><b>{selectedProduct.info}</b></p> 
-                  <p>$ {selectedProduct.price}</p>
-                  <button>Comprar</button>
-                  <button onClick = {handleCloseDetails}>Cerrar</button>
-                </div>
-              </div>
-            )}
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div className="container">
+          <div className="sub-container">
+            <div className="first-section">
+              <img src={selectedProduct.imageUrl} />
+              <br />
+              <h2>
+                Descripción del producto
+              </h2>
+              <br />
+              <p>{selectedProduct.description}</p>
             </div>
-      </div>
-    )
-}
+            <div className="second-section">
+              <p>
+                <b>{selectedProduct.info}</b>
+              </p>
+              <p>$ {selectedProduct.price}</p>
+              <button>Comprar</button>
+              <button onClick={() => navigate("/")}>Cerrar</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
 
-export default ProductList
+export default ProductList;

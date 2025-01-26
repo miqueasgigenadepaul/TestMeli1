@@ -67,6 +67,7 @@
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 /*las imagenes como botones*/
 button {
@@ -117,11 +118,13 @@ button:hover {
 .first-section h2 {
     font-size: 25px;
     margin-left: 20px;
+    font-weight: lighter;
 }
 
 .first-section p {
     max-width: 1200px;
     margin-left: 20px;
+    color: #808080;
 }
 
 /*.second-section{
